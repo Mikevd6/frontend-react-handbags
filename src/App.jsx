@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Button from './Button';
+import ButtonSection from './ButtonSection';
+import ProductSection from './ProductSection';
+import TileSection from './TileSection';
 
 const App = () => {
     return (
         <div>
             <h1>Handbags & Purses</h1>
-            <nav>
-                <Button text="Button 1" disabled={false} />
-                <Button text="Button 2" disabled={false} />
-                <Button text="Button 3" disabled={true} />
-            </nav>
+            <ButtonSection />
+            <ProductSection />
+            <TileSection />
         </div>
     );
 };
